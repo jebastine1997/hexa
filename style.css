@@ -1,0 +1,1053 @@
+
+
+html::-webkit-scrollbar
+{
+    width: 1rem;
+}
+
+html::-webkit-scrollbar-track
+{
+    background: rgba(0, 0, 0, 0.575);
+}
+
+html::-webkit-scrollbar-thumb
+{
+    background: orange;
+}
+
+body
+{
+    background-color: rgba(128, 128, 128, 0.418);
+}
+
+#home
+{
+    padding-top: 6rem;
+}
+
+.logo
+{
+    height: 4rem;
+}
+#p1
+{
+    padding-top: 3rem;
+    font-size: 2.8rem;
+    line-height: 1.2;
+    font-weight: bold;
+    color: orange;
+}
+
+#p2
+{
+    line-height: 1;
+    font-size: 1.7rem;
+    font-weight: 400;
+}
+
+#span1
+{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.banner1
+{
+    width: 100%;
+}
+
+.btn1
+{
+    margin-top: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 0.4rem;
+    color: orange;
+    background-color: rgb(14, 14, 78);
+    border-radius: 15px;
+}
+
+.row1
+{
+    text-align: center;
+    align-items: center;
+}
+
+.para
+{
+    margin: auto;
+    position: relative;
+    width: 70%;
+    font-weight:600;
+}
+
+.rowicons
+{
+    margin: auto;
+    text-align: center;
+}
+
+
+.expbtn
+{
+    position: relative;
+}
+
+.btn2
+{
+    margin-top: 2.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 0.4rem;
+    color: orange;
+    background-color: rgb(14, 14, 78);
+    border-radius: 15px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+}
+
+#logo-holder 
+{
+    position:relative;  
+    /*dimensions of image*/
+}
+#logo-holder .image,
+#logo-holder .text 
+{   transition: opacity 0.5s ease-in-out;
+    background-color: orange;
+    text-align: center;
+    border-radius: 5px; 
+}
+
+#logo-holder .text 
+{
+    position:absolute; 
+    opacity:0;
+    padding: 1.5rem;
+}
+
+#logo-holder:hover .image {opacity:0;}
+#logo-holder:hover .text {opacity:1;}
+
+
+.service
+{
+    padding-top: 3rem;
+    width: 60%;
+    margin: auto;
+    position: relative;
+    text-align: center;
+}
+
+.service h2
+{
+    font-size: 2rem;
+}
+
+.service h1
+{
+    color: orange;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.sericons
+{
+    padding: 0.8rem;
+    border: 3px dashed gray;
+    border-radius: 20px;
+    margin: auto;
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.img p
+{
+    font-weight: bold;
+}
+
+
+.banner3
+{
+    width: 100%;
+    margin: auto;
+}
+
+.banner3 img
+{
+    width: 100%;
+}
+
+.video
+{
+    background-color: white;
+}
+
+.vdocontent
+{
+    padding-top: 4rem;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+.vdocontent h2
+{
+    font-size: 2rem;
+}
+.vdocontent h1
+{
+    color: orange;
+    font-size: 3rem;
+}
+
+.vdocontent p
+{
+    margin-top: 1.5rem;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.vdo img
+{
+    width: 100%;
+}
+
+.offers
+{
+    padding-top: 2rem;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 4rem;
+}
+
+.offers h2
+{
+    font-size: 2.2rem;
+}
+
+.offers h1
+{
+    color: orange;
+    font-size: 3rem;
+}
+
+.off
+{
+    text-align: center;
+}
+
+.off h4
+{
+    color: orange;
+}
+
+.off p
+{
+    margin: auto;
+    width: 80%;
+}
+
+
+.vmargin
+{
+    border-bottom: 4px dashed gray
+}
+
+.sol h4
+{
+    font-size: 1.5rem
+}
+
+.sol p
+{
+    width: 90%;
+}
+
+.imgtop
+{
+    margin-top: 20rem;
+}
+
+.oval
+{
+    width: 100%;
+    height: 300px;
+    line-height: 500px;
+    border-radius: 50%;
+    font-size: 50px;
+    text-align: center;
+    background: linear-gradient(to left, rgba(0, 60, 255, 0.356), rgba(255, 72, 0, 0.445))
+}
+
+.oval h4
+{
+    padding-top: 4rem;
+    font-size: 2rem;
+    width: 80%;
+    margin: auto;
+}
+
+.oval h1
+{
+    font-size: 3rem;
+}
+
+.contbtm
+{
+    padding-top: 6rem;
+}
+
+
+.partners p
+{
+    padding-top: 7rem;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 1;
+}
+
+.partners h1
+{
+    font-size:3rem;
+    color: orange;
+}
+
+.partnerimg img
+{
+    margin: auto;
+    width: 100%;
+}
+
+.enablers
+{
+    margin: auto;
+    width: 100%;
+    text-align: center;
+}
+
+.enablers h1
+{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    color: orange;
+    font-size: 2.5rem;
+}
+
+.enabl
+{
+    width: 90%;
+    text-align: center;
+}
+
+.enabl h3
+{
+    text-align: left;
+    width: 65%;
+    margin-left: auto;
+}
+
+.enabl p
+{
+    margin-left: auto;
+    width: 65%;
+    text-align: left;
+    font-weight: 600;
+}
+
+
+.enabl1
+{
+    width: 90%;
+}
+
+
+.enabl1 h3
+{
+    text-align: left;
+    width: 65%;
+}
+
+.enabl1 p
+{
+    width: 65%;
+    text-align: left;
+    font-weight: 600;
+}
+
+.testcontent h1
+{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    text-align: center;
+}
+
+.testm1
+{
+    text-align: center;
+    margin: auto;
+    padding-bottom: 10rem;
+}
+
+.testm1 p
+{
+    margin-top: 3rem;
+}
+
+.testm1 h7
+{
+    margin-top: 3rem;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.testimoimg
+{
+    height: 10rem;
+    
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  width: 10vw;
+  height: 6vw;
+}
+
+footer
+{
+    height:500px;
+    width: 100%;
+    margin: auto;
+    background-size: 100% 100%;
+    background-image: url(assets/footer.png);
+    background-repeat: no-repeat;
+}
+
+
+.foot
+{
+    padding: 2rem;
+    display: flex;
+    color: rgba(90, 88, 88, 0.836);
+    justify-content:space-between ;
+}
+
+.foot img
+{
+    margin-top: 12rem;
+    height: 7rem;
+}
+
+.foot ul
+{
+    padding-top: 13rem;
+}
+
+.foot ul li
+{
+    font-size: 1rem;
+    font-weight: 700;
+    text-decoration: none;
+    list-style: none;
+    
+}
+
+.foot .footbtns
+{
+    padding-top: 12rem;
+}
+
+.footbtns .text
+{
+    border: none;
+    background-color: rgba(31, 31, 104, 0.87);
+}
+
+.footbtns .gobtn
+{
+    background-color: orange;
+    color: white;
+    border: none;
+    font-weight: bold;
+}
+
+.footbtns .social
+{
+    font-weight: bold;
+    margin-top: 1rem;   
+}
+
+.footbtns .social svg
+{
+    margin-right: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Media queries starts here */
+
+@media (max-width:1192px)
+{
+    .oval h4
+    {
+        font-size: 1.5rem;
+    }
+
+    .oval h1
+    {
+        font-size: 3rem;
+    }
+
+    .partners p
+    {
+        padding-top: 6rem;
+        font-size: 1.5rem;
+    }
+
+    .partners h1
+    {
+        font-size:2.5rem;
+        color: orange;
+    }
+    .enabl
+{
+    width: 90%;
+    text-align: center;
+}
+
+.enabl h3
+{
+    text-align: left;
+    width: 65%;
+    margin-left: 7.5rem;
+    font-size: 1.5rem;
+    padding: 0.2rem;
+}
+
+.enabl p
+{
+    margin-left: 7.5rem;
+    width: 70%;
+    text-align: left;
+    font-weight: 600;
+}
+
+
+.enabl1
+{
+    width: 90%;
+}
+
+
+.enabl1 h3
+{
+    text-align: left;
+    width: 65%;
+    font-size: 1.5rem;
+    padding: 0.2rem;
+}
+
+.enabl1 p
+{
+    width: 65%;
+    text-align: left;
+    font-weight: 600;
+}
+
+}
+
+@media (max-width:990px)
+{
+    .logo
+    {
+        height: 3rem;
+    }
+
+    #p1
+    {
+        font-size: 2.1rem;
+        text-align: center;
+    }
+
+    #p2
+    {
+        font-size: 1.2rem;   
+        text-align: center;
+        margin-bottom: 2rem;
+    }  
+
+    .btndiv
+    {
+        position: relative;
+    }
+    .btn1
+    {
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        margin-top: 0.5rem;
+        font-size: 1rem;
+        margin-bottom: 5rem;
+    }
+
+    .banner1
+    {
+        width: 100%;
+        margin-top: 2rem;
+    }
+
+    .para
+    {
+        width: 70%;
+        font-size: 1rem;
+    }
+
+    .service h2
+    {
+        font-size: 1.5rem;
+    }
+
+    .service h1
+    {
+        color: orange;
+        font-size: 2rem;
+    }
+
+    .sericons
+    {
+        width: 80%;
+    }
+
+    .vdocontent
+    {
+        width: 70%;
+    }
+
+    .vdocontent h2
+    {
+        font-size: 1.5rem;
+    }
+    .vdocontent h1
+    {
+        color: orange;
+        font-size: 2.4rem;
+    }
+
+    .vdocontent p
+    {
+        margin-top: 1.5rem;
+        font-size: 0.8rem;
+        font-weight: 500;
+    }
+
+    .offers
+    {
+        width: 80%;
+        text-align: center;
+    }
+
+    .offers h2
+    {
+        font-size: 1.5rem;
+    }
+
+    .offers h1
+    {
+        font-size: 2.5rem;
+    }
+
+    .oval h4
+    {
+        font-size: 2.5rem;
+    }
+
+    .oval h1
+    {
+        font-size: 3.5rem;
+    }
+
+    .imgtop
+    {
+        margin-top: 10rem;
+    }
+
+    .partners p
+    {
+        text-align: center;
+        line-height: 1.2;
+        padding-top: 2rem;
+        font-size: 1.2rem;
+    }
+
+    .partners h1
+    {
+        text-align: center;
+        font-size:2.2rem;
+    }
+
+    .enabl
+    {
+        width: 90%;
+        text-align: center;
+    }
+
+    .enabl h3
+    {
+        font-size: 1.2rem;
+        text-align: center;
+        width: 100%;
+        margin-left: auto;
+    }
+
+    .enabl p
+    {
+        font-size: 1rem;
+        margin-left: auto;
+        width: 100%;
+        text-align: center;
+    }
+
+
+    .enabl1
+    {
+        width: 90%;
+        text-align: center;
+    }
+
+
+    .enabl1 h3
+    {
+     font-size: 1.2rem;
+        text-align: center;
+        width: 100%;
+    }
+
+    .enabl1 p
+    {
+        font-size: 1rem;
+        width: 100%;
+        text-align: center;
+        font-weight: 600;
+    }
+
+    .foot
+    {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    footer
+    {
+        width: 100%;
+        background-size: cover;
+        background-image: url(assets/footer.png);
+        background-repeat: no-repeat;
+    }
+
+    .foot img
+    {
+        margin: auto;
+        margin-top: 35rem;
+        width: 5rem;
+        height: 5rem;
+    }
+
+    .foot ul
+    {
+        padding-top: 3rem;
+        align-items: center;
+    }
+
+    .foot ul li
+    {
+        display: inline-flexbox;
+        width: 100%;
+        padding-right: 2rem;
+    }
+
+    .foot .footbtns
+    {
+        padding-top: 3rem;
+    }
+
+
+}
+
+@media (max-width:768px)
+{
+    .logo
+    {
+        height: 2.5rem;
+    }
+
+    #p1
+    {
+        font-size: 1.7rem;
+    }
+
+    #p2
+    {
+        font-size: 1rem;   
+    }  
+
+    .btn1
+    {
+        font-size: 0.8rem;
+    }
+
+    .para
+    {
+        width: 70%;
+        font-size: 0.8rem;
+    }
+
+    .service
+    {
+        width: 100%;
+    }
+
+    .service h2
+    {
+        font-size: 1rem;
+    }
+
+    .service h1
+    {
+        color: orange;
+        font-size: 1.5rem;
+    }
+
+    .sericons
+    {
+        width: 100%;
+    }
+
+    .vdocontent
+    {
+        width: 100%;
+    }
+
+    .vdocontent h2
+    {
+        font-size: 1.2rem;
+    }
+    .vdocontent h1
+    {
+        color: orange;
+        font-size: 1.8rem;
+    }
+
+    .vdocontent p
+    {
+        margin-top: 1.5rem;
+        font-size: 0.8rem;
+        font-weight: 500;
+    }
+
+    .offers
+    {
+        width: 100%;
+    }
+
+    .offers h2
+    {
+        font-size: 1.3rem;
+    }
+
+    .offers h1
+    {
+        font-size: 1.8rem;
+    }
+
+    .oval
+    {
+        height: 280px;
+    }
+
+    .oval h1
+    {
+        font-size: 1rem;
+    }
+    .oval h4
+    {
+        font-size: 2rem;
+    }
+
+    .sol
+    {
+        margin: auto;
+        text-align: center;
+    }
+
+    .sol p
+    {
+        width: 100%;
+    }
+    .oval h1
+    {
+        font-size: 2.9rem;
+    }
+
+    .imgtop
+    {
+        margin-top: 5rem;
+    }
+
+    .enabl
+    {
+        width: 100%;
+        text-align: center;
+    }
+
+    .enabl h3
+    {
+        font-size: 1rem;
+        text-align: center;
+        width: 100%;
+        margin-left: auto;
+    }
+
+    .enabl p
+    {
+        font-size: 0.9rem;
+        margin-left: auto;
+        width: 100%;
+        text-align: center;
+    }
+
+
+    .enabl1
+    {
+        width: 100%;
+        text-align: center;
+    }
+
+
+    .enabl1 h3
+    {
+        font-size: 1rem;
+        text-align: center;
+        width: 100%;
+    }
+
+    .enabl1 p
+    {
+        font-size: 0.9rem;
+        width: 100%;
+        text-align: center;
+        font-weight: 600;
+    }
+
+    
+}
+
+@media (max-width:576px)
+{
+    
+    .rowicons
+    {
+        margin-left: 0.5rem;
+
+    }
+
+    .partners p
+    {
+        text-align: center;
+        line-height: 1.2;
+        padding-top: 1rem;
+        font-size: 1.1rem;
+    }
+
+    .partners h1
+    {
+        text-align: center;
+        font-size:2rem;
+    }
+
+    .oval h1
+    {
+        font-size: 2.2rem;
+    }
+    .oval h4
+    {
+        font-size: 2rem;
+    }
+    .enabl
+    {
+        width: 100%;
+        text-align: center;
+    }
+
+    .enabl h3
+    {
+        font-size: 1rem;
+        text-align: center;
+        width: 100%;
+        margin-left: auto;
+    }
+
+    .enabl p
+    {
+        font-size: 0.9rem;
+        margin-left: auto;
+        width: 100%;
+        text-align: center;
+    }
+
+
+    .enabl1
+    {
+        width: 100%;
+        text-align: center;
+    }
+
+
+    .enabl1 h3
+    {
+        font-size: 1rem;
+        text-align: center;
+        width: 100%;
+    }
+
+    .enabl1 p
+    {
+        font-size: 0.9rem;
+        width: 100%;
+        text-align: center;
+        font-weight: 600;
+    }
+
+    .carousel-control-next-icon
+    {
+        margin-top: 2rem;
+        margin-left: 1.8rem;
+        padding: 1.5rem;
+    }
+
+    .carousel-control-prev-icon
+    {
+        margin-top: 2rem;   
+        padding: 1.5rem;
+        margin-right: 1.5rem;
+    }
+    
+}
+
+
+/* Media queries ends here */
